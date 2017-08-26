@@ -1,0 +1,3 @@
+atom-beautify@0.30.5
+language-scala@1.1.9
+
