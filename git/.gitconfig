@@ -7,9 +7,9 @@
 	excludesfile = /Users/mike/.gitignore_global
 [alias]
 	push-for-review = push origin HEAD:refs/for/master
-	push-as-draft = push origin HEAD:refs/drafts/master
 	push-for-review-branch = !git push origin HEAD:refs/for/$1
-	push-as-draft-branch = !git push origin HEAD:refs/drafts/$1
+	push-for-review-wip = push origin HEAD:refs/for/master%wip
+	push-for-review-ready = push origin HEAD:refs/for/master%ready
 
 	hist = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s' --graph
 	histfull = log --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset%C(yellow)%d%Creset %Cgreen(%cr)%Creset%n%w(80,8,8)%s%n' --graph --name-status
