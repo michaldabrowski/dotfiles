@@ -3,6 +3,8 @@ code --install-extension DotJoshJohnson.xml
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.terminal
 code --install-extension fwcd.kotlin
+code --install-extension GabrielBB.vscode-lombok
+code --install-extension kdcro101.vscode-cassandra
 code --install-extension lightbend.vscode-sbt-scala
 code --install-extension mathiasfrohlich.Kotlin
 code --install-extension ms-azuretools.vscode-docker
@@ -12,8 +14,10 @@ code --install-extension Pivotal.vscode-concourse
 code --install-extension Pivotal.vscode-manifest-yaml
 code --install-extension Pivotal.vscode-spring-boot
 code --install-extension redhat.java
+code --install-extension rust-lang.rust
 code --install-extension scala-lang.scala
 code --install-extension scalameta.metals
+code --install-extension SonarSource.sonarlint-vscode
 code --install-extension timonwong.shellcheck
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
@@ -23,3 +27,4 @@ code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
 code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
+code --install-extension yzane.markdown-pdf
