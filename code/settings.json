@@ -6,7 +6,7 @@
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
   "workbench.colorTheme": "Tomorrow Night Blue",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "diffEditor.ignoreTrimWhitespace": false,
   "[java]": {
@@ -28,11 +28,25 @@
   // java
   "java.configuration.checkProjectSettingsExclusions": false,
   "java.semanticHighlighting.enabled": true,
-  "java.home": "/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home",
+  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/mike/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
 
   // python
   "python.languageServer": "Microsoft",
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/usr/local/bin/black"
+  "python.formatting.blackPath": "/usr/local/bin/black",
+
+  // rust
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust"
+  },
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.columnSelection": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

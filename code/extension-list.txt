@@ -9,6 +9,8 @@ code --install-extension lightbend.vscode-sbt-scala
 code --install-extension mathiasfrohlich.Kotlin
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension Pivotal.vscode-boot-dev-pack
 code --install-extension Pivotal.vscode-concourse
 code --install-extension Pivotal.vscode-manifest-yaml
