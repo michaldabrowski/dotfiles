@@ -1,5 +1,6 @@
 brew "bat"
 brew "fd"
+brew "gh"
 brew "jq"
 brew "maven"
 brew "ripgrep"
