@@ -9,15 +9,17 @@
 {
   // Agent configuration
   "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4"
+    },
     "model_parameters": [],
     "always_allow_tool_actions": true
   },
 
   // Theme and appearance
   "theme": "Ayu Mirage",
-  "ui_font_size": 15,
   "buffer_font_family": "JetBrains Mono",
-  "ui_font_family": "JetBrains Mono",
   "buffer_font_size": 15,
 
   // Editor behavior
