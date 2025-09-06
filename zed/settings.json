@@ -9,6 +9,7 @@
 {
   // Agent configuration
   "agent": {
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
@@ -24,7 +25,7 @@
 
   // Editor behavior
   "preferred_line_length": 100,
-  "format_on_save": "on",
+  "format_on_save": "off",
 
   // File handling
   "remove_trailing_whitespace_on_save": true,
