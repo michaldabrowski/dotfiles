@@ -8,6 +8,9 @@
 // from the command palette or from `Zed` application menu.
 {
   // Agent configuration
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
   "agent": {
     "default_profile": "ask",
     "default_model": {
