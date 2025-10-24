@@ -8,6 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   // Agent configuration
+  "ui_font_family": "CaskaydiaMono Nerd Font Mono",
   "features": {
     "edit_prediction_provider": "copilot"
   },
@@ -15,15 +16,15 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "claude-sonnet-4.5"
     },
     "model_parameters": [],
-    "always_allow_tool_actions": true
+    "always_allow_tool_actions": false
   },
 
   // Theme and appearance
   "theme": "Ayu Mirage",
-  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
   "buffer_font_size": 15,
 
   // Editor behavior
@@ -38,14 +39,14 @@
   // Git integration
   "git": {
     "inline_blame": {
-      "enabled": true,
+      "enabled": false,
       "delay_ms": 1000
     }
   },
 
   // Terminal
   "terminal": {
-    "font_family": "JetBrains Mono",
+    "font_family": "CaskaydiaMono Nerd Font Mono",
     "font_size": 15,
     "shell": {
       "program": "/bin/zsh"
