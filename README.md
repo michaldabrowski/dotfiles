@@ -14,11 +14,12 @@ chmod +x install.sh
 - Ghostty - <https://ghostty.org/> terminal.
 - Rectangle - <https://rectangleapp.com/> workspace and window arrangement.
 - Pastebot - <https://tapbots.com/pastebot/> multi clipboard.
-- sdkman - <https://sdkman.io> SDK manager.
+- sdkman - <https://sdkman.io/> SDK manager.
+- rustup - <https://rustup.rs/> the Rust installer and version management tool.
 
-## Omarchy
+## Omarchy - WIP
 
-The `omarchy` dir contains overridden config files for Omarchy (WIP).
+The `omarchy` dir contains overridden config files for Omarchy.
 
 ### Manually installed apps
 
