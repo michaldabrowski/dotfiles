@@ -8,10 +8,10 @@
 // from the command palette or from `Zed` application menu.
 {
   // Agent configuration
-  "ui_font_family": "JetBrains Mono",
-  "features": {
-    "edit_prediction_provider": "copilot"
+  "edit_predictions": {
+    "provider": "copilot"
   },
+  "ui_font_family": "JetBrains Mono",
   "agent": {
     "default_profile": "ask",
     "default_model": {
