@@ -11,7 +11,7 @@ chmod +x install.sh
 
 ### Applications
 
-- Ghostty - <https://ghostty.org/> terminal.
+- alacritty - <https://alacritty.org/> terminal.
 - Rectangle - <https://rectangleapp.com/> workspace and window arrangement.
 - Pastebot - <https://tapbots.com/pastebot/> multi clipboard.
 - sdkman - <https://sdkman.io/> SDK manager.
@@ -24,4 +24,4 @@ The `omarchy` dir contains overridden config files for Omarchy.
 ### Manually installed apps
 
 - Zed - <https://zed.dev/> code editor.
-- Ghostty - <https://ghostty.org/> terminal.
+- alacritty - <https://alacritty.org/> terminal.
